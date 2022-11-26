@@ -2,7 +2,7 @@ import base64
 import os
 from pickle import TRUE
 
-UPLOAD_DIRECTORY = "/Users/kimbi/Documents/Specialization Project/CP_Files/uploads/"
+UPLOAD_DIRECTORY = "crystal-plasticity-toolbox/uploads/"
 if not os.path.exists(UPLOAD_DIRECTORY):
     os.makedirs(UPLOAD_DIRECTORY)
 
