@@ -16,8 +16,8 @@ import pandas as pd
 import dill
 
 
-UPLOAD_DIRECTORY = "/crystal-plasticity-toolbox//uploads/"
-ASSET_DIRECTORY = "/crystal-plasticity-toolbox//assets/"
+UPLOAD_DIRECTORY = "crystal-plasticity-toolbox/uploads/"
+ASSET_DIRECTORY = "crystal-plasticity-toolbox/assets/"
 
 def data_source_inputs(selected_grain_ori_state, selected_loading_state,
                         euler_phi1, euler_theta, euler_phi2, uploaded_filename, threshold,
